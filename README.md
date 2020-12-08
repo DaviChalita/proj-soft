@@ -10,9 +10,10 @@ docker-compose up
 
 Isso fará com que um banco em SQL seja inicializado na porta 3306.
 
-### Usuario e Senha:
-usuario: dev
-senha: password
+### Credenciais do banco:
+
+**Usuario:** dev  
+**Senha:** password
 
 ## Buildar e executar a aplicação
 Dentro da pasta do projeto, execute o seguinte comando: 
