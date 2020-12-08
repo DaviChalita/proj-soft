@@ -7,13 +7,16 @@ Dentro da pasta do projeto, execute o seguinte comando:
 ```
 O projeto será buildado e executado. É necessário ter java jdk 8 instalado. 
 
-Ela irá rodar automaticamente na porta 4000
+Após a execução do comando, a aplicação irá rodar automaticamente na porta 4000.
 
 ## Subindo o banco de dados
-Para subir o banco de dados é necessário ter o docker instalado
-```
+Para subir o banco de dados é necessário ter o docker instalado. Após instalar o docker, execute o seguinte comando na pasta do projeto. 
+
+```sh
 docker-compose up 
 ```
+
+Isso fará com que um banco em SQL seja inicializado na porta 3306.
 
 ### Usuario e Senha:
 usuario: dev
